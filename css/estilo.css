@@ -2,7 +2,9 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Manrope', fantasy;
+
+    /*font-family: 'Open Sans', sans-serif;*/
 }
 
 body, html {
@@ -44,12 +46,41 @@ body{
   background-size: cover;
 }
 
+table tr th {
+  font-family: 'arial';
+}
+
+table tr td{
+  text-align: right;
+  font-style: italic;
+  font-size: 35px;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 10px;
+  margin: 0 0 0 0;
+}
+
+#tab1{
+  -background-color: white;
+  -border: 5px solid white;
+  float: left;
+  margin-top: 90px;
+  margin-left: 25%;
+  font-family: 'Teko';
+  font-size: 30px;
+  color: white;
+}
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 #menu-h{
-    background-color: rgb(37, 37, 39);
+    background-color: rgb(37, 37, 39, 0.2);
 }
 
 #menu-h ul {
@@ -63,7 +94,8 @@ body{
 }
 
 #menu-h ul li a {
-    color: #FFF;
+    color: #fff;
+    font-size: 20px;
     padding: 20px;
     display: inline-block;
     text-decoration: none;
