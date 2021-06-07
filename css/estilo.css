@@ -1,0 +1,51 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+body{
+  background-image: url('https://lh3.googleusercontent.com/pw/ACtC-3cpSLJF7guc6b3-IMnXzzeOOb2FcrxlaZIjpuVFpGCRh_xaRd6uVmgZp1k_mzXbcSkHxMhcwAvp-kivgXYCHvfInXd8tfdg0eiz5SBThXUoNdJKwJf5h9ScGfBqzpEgXA5Fpj0VBZdTh4SwM67Dt7rm=w1477-h830-no?authuser=0');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
